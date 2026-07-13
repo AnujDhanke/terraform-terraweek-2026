@@ -1,0 +1,26 @@
+==============================
+Terraform TerraWeek 2026
+==============================
+
+Student Name: Anuj Dhanke
+Student Age: 20
+
+Challenge Day: 2
+Completed: true
+
+Project Title : Terraform Terraweek Challenge
+Language : Terraform
+Terraform Version : 1.15.7
+
+Topics Learned Today:
+Variables
+Data Types
+Expressions
+
+Social Links:
+Github   : https://github.com/anujdhanke
+LinkedIn : https://www.linkedin.com/in/anuj-dhanke-b736b52b9/?skipRedirect=true
+
+==============================
+Day 02 Challenge Completed Successfully!
+==============================
