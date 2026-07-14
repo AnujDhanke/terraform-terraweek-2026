@@ -37,23 +37,4 @@ Day-03 : Successfully provisioned an EC2 instance along with its Security Group 
 MIT licence
 
 
-## Repository structure
 
-```
-terraform-terraweek-2026/
-├── README.md
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── providers.tf
-├── versions.tf
-├── modules/
-│   ├── network/
-│   ├── compute/
-│   └── storage/
-├── environments/
-│   ├── dev/
-│   └── prod/
-├── scripts/
-└── .gitignore
-```
