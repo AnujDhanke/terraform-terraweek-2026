@@ -1,7 +1,7 @@
 #key-pair of ec2
 resource "aws_key_pair" "mykey" {
   key_name   = "terrakey"
-  public_key = (file("~/terraform-terraweek-2026/terrakey.pub"))
+  public_key = (file("public-key.pub"))
 }
 
 #vpc 
