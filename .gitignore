@@ -69,3 +69,9 @@ terraform.rc
 # OS Files
 .DS_Store
 Thumbs.db
+
+# SSH Keys
+terrakey
+terrakey.pub
+*.pem
+*.ppk
