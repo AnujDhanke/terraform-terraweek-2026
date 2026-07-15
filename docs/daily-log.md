@@ -120,6 +120,75 @@ terraform destroy
 ---
 
 
+
+---
+
+# Day 04 - Terraform State Management
+
+**Date:** 15 July 2026
+
+## Challenge Objective
+
+Understand Terraform State, learn the difference between local and remote state, and configure a secure remote backend using Amazon S3 and DynamoDB.
+
+### Topics Covered
+
+- Terraform State
+- Local State
+- Remote State
+- Backend Configuration
+- Amazon S3 Backend
+- DynamoDB State Locking
+- State Migration
+- S3 Versioning
+- Server-Side Encryption
+
+### Terraform Commands Executed
+
+```bash
+terraform fmt
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+```
+
+### Hands-on Implementation
+
+- Created an S3 bucket for remote Terraform state storage.
+- Enabled bucket versioning to maintain previous versions of the state file.
+- Configured server-side encryption for secure state storage.
+- Created a DynamoDB table for Terraform state locking.
+- Migrated the local Terraform state to the remote S3 backend.
+- Successfully destroyed all resources after validating the setup.
+
+### Outcome
+
+- Successfully configured a remote Terraform backend using Amazon S3.
+- Learned how Terraform state migration works.
+- Understood the purpose of state locking using DynamoDB.
+- Explored security best practices for storing Terraform state.
+
+### Challenges Faced
+
+- Understood the bootstrapping process required before configuring a remote backend.
+- Learned why Terraform state should be stored remotely in collaborative environments.
+- Explored how S3 versioning and encryption improve state reliability and security.
+
+### Key Learnings
+
+- Terraform State represents the current infrastructure managed by Terraform.
+- Remote state enables collaboration among multiple users.
+- S3 stores the Terraform state file, while DynamoDB prevents concurrent modifications through state locking.
+- Backend configuration determines where Terraform stores and manages its state.
+- Versioning and encryption improve the reliability and security of Terraform state.
+
+---
+
+
+
+
 ### Repository Progress
 - ✅ Day 01 - Introduction to Terraform
 - ✅ Day 02 - Terraform Configuration Language (HCL)

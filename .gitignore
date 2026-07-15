@@ -71,7 +71,7 @@ terraform.rc
 Thumbs.db
 
 # SSH Keys
-terrakey
-terrakey.pub
+terra-key
+terra-key.pub
 *.pem
 *.ppk
